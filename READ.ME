@@ -1,0 +1,23 @@
+HEPSİBURADA ALISVERİS SENARYOSU With TESTNG
+
+Testi Chrome, Firefox ve Edge'de çalışacxk şekilde tasarladım.
+--> /src/main/resources/GlobalData.properties file' a girip test yapmak istediğiniz driverı seçebilirsiniz.
+
+(Driver seçiminiz şu şekilde olmalıdır --> browser=edge ya da  browser=firefox gibi)
+
+---> SENARYO <---
+
+1- hepsiburada.com sitesine gidilir ve bu siteye gidildiğinin kontrolü yapılır.
+2- Üye kaydı olmadan devam edilecek
+3- Menüden Elektronik -> Bilgisayar/Tablet -> Notebook seçilir.
+4- Marka listeleme ekranında "Apple" seçilir.
+5- Sıralama comboBox' ından "Çok Satanlar" a görre sıralama yaptırılır.
+6- Listelenen ürünlerden 2. ürün sepete eklenir. Sepete eklenmiştir uyarı mesajının kontrolü sağlanır.
+7- Sepete gidilip ürünün sepette olup olmadığı kontrol edilir.
+8- Alışverişi tamamla butonuna basılır ve login ekranına gidilip gidilmediği kontrol edilir.
+
+---> TEKNOLOJILER <---
+
+1- JAVA 12
+2- SELENIUM
+3- TESTNG
